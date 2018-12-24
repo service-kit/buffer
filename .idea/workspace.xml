@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoTestManager">
+    <enabled-run-configurations>
+      <run-configuration type="GoTestRunConfiguration" name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" />
+    </enabled-run-configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bcf62790-3ee0-4a3e-8acd-0098c795c6bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytes-buffer/buffer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytes-buffer/buffer_test.go" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bytes-buffer/buffer.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3400">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Go/src/runtime/os_windows.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="774" selection-start-line="774" selection-end-line="774" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bytes-buffer/buffer_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+              <folding>
+                <element signature="e#22#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Go/src/testing/testing.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="826" selection-start-line="826" selection-end-line="826" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Go/src/runtime/panic.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="680" selection-start-line="680" selection-end-line="680" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="D:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/bytes-buffer/buffer.go" />
+        <option value="$PROJECT_DIR$/bytes-buffer/buffer_test.go" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1939" />
+    <option name="y" value="116" />
+    <option name="width" value="1936" />
+    <option name="height" value="882" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="buffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="buffer" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="buffer" />
+      <working_directory value="$PROJECT_DIR$/bytes-buffer" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/service-kit/buffer/bytes-buffer" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_BytesBuffer$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test_BytesBuffer_in_github_com_service-kit_buffer_bytes-buffer - 2018.12.22 at 19h 25m 12s.xml">
+      <configuration name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_BytesBuffer_in_github_com_service-kit_buffer_bytes-buffer - 2018.12.22 at 19h 25m 17s.xml">
+      <configuration name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_BytesBuffer_in_github_com_service-kit_buffer_bytes-buffer - 2018.12.22 at 19h 26m 17s.xml">
+      <configuration name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_BytesBuffer_in_github_com_service-kit_buffer_bytes-buffer - 2018.12.22 at 19h 26m 20s.xml">
+      <configuration name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_BytesBuffer_in_github_com_service-kit_buffer_bytes-buffer - 2018.12.22 at 19h 31m 06s.xml">
+      <configuration name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_BytesBuffer_in_github_com_service-kit_buffer_bytes-buffer - 2018.12.22 at 19h 31m 13s.xml">
+      <configuration name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_BytesBuffer_in_github_com_service-kit_buffer_bytes-buffer - 2018.12.22 at 19h 31m 30s.xml">
+      <configuration name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_BytesBuffer_in_github_com_service-kit_buffer_bytes-buffer - 2018.12.22 at 19h 31m 44s.xml">
+      <configuration name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_BytesBuffer_in_github_com_service-kit_buffer_bytes-buffer - 2018.12.22 at 19h 31m 51s.xml">
+      <configuration name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_BytesBuffer_in_github_com_service-kit_buffer_bytes-buffer - 2018.12.24 at 11h 13m 44s.xml">
+      <configuration name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.21475054" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://D:/Go/src/testing/testing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="826" selection-start-line="826" selection-end-line="826" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Go/src/runtime/os_windows.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="774" selection-start-line="774" selection-end-line="774" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Go/src/runtime/panic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="680" selection-start-line="680" selection-end-line="680" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bytes-buffer/buffer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3400">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bytes-buffer/buffer_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <element signature="e#22#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
