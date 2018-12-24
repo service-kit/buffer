@@ -7,10 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcf62790-3ee0-4a3e-8acd-0098c795c6bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bytes-buffer/buffer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bytes-buffer/buffer_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytes-buffer-pool/pool.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,12 +17,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bytes-buffer/buffer.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3400">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="372">
+              <caret line="185" column="5" lean-forward="true" selection-start-line="185" selection-start-column="5" selection-end-line="185" selection-end-column="5" />
+              <folding>
+                <element signature="e#22#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bytes-buffer-pool/pool.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="e#27#54#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -32,17 +45,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://D:/Go/src/runtime/os_windows.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
+            <state relative-caret-position="15420">
               <caret line="774" selection-start-line="774" selection-end-line="774" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bytes-buffer/buffer_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            <state relative-caret-position="200">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
               <folding>
                 <element signature="e#22#50#0" expanded="true" />
               </folding>
@@ -53,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://D:/Go/src/testing/testing.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
+            <state relative-caret-position="16200">
               <caret line="826" selection-start-line="826" selection-end-line="826" />
             </state>
           </provider>
@@ -62,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://D:/Go/src/runtime/panic.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
+            <state relative-caret-position="13520">
               <caret line="680" selection-start-line="680" selection-end-line="680" />
             </state>
           </provider>
@@ -86,14 +99,15 @@
       <list>
         <option value="$PROJECT_DIR$/bytes-buffer/buffer.go" />
         <option value="$PROJECT_DIR$/bytes-buffer/buffer_test.go" />
+        <option value="$PROJECT_DIR$/bytes-buffer-pool/pool.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1939" />
-    <option name="y" value="116" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="882" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -155,12 +169,6 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_BytesBuffer_in_github_com_service-kit_buffer_bytes-buffer - 2018.12.22 at 19h 25m 12s.xml">
-      <configuration name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_BytesBuffer_in_github_com_service-kit_buffer_bytes-buffer - 2018.12.22 at 19h 25m 17s.xml">
-      <configuration name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="Test_BytesBuffer_in_github_com_service-kit_buffer_bytes-buffer - 2018.12.22 at 19h 26m 17s.xml">
       <configuration name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -185,70 +193,89 @@
     <history-entry file="Test_BytesBuffer_in_github_com_service-kit_buffer_bytes-buffer - 2018.12.24 at 11h 13m 44s.xml">
       <configuration name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="Test_BytesBuffer_in_github_com_service-kit_buffer_bytes-buffer - 2018.12.24 at 11h 19m 43s.xml">
+      <configuration name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_BytesBuffer_in_github_com_service-kit_buffer_bytes-buffer - 2018.12.24 at 11h 19m 58s.xml">
+      <configuration name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49457702" visible="true" weight="0.2553305" />
+      <window_info id="Structure" order="1" sideWeight="0.505423" side_tool="true" visible="true" weight="0.2553305" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.21475054" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46637744" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Go/src/testing/testing.go">
+    <entry file="file://D:/Go/src/runtime/os_windows.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="826" selection-start-line="826" selection-end-line="826" />
+        <state relative-caret-position="15420">
+          <caret line="774" selection-start-line="774" selection-end-line="774" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Go/src/runtime/os_windows.go">
+    <entry file="file://D:/Go/src/testing/testing.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="774" selection-start-line="774" selection-end-line="774" />
+        <state relative-caret-position="16200">
+          <caret line="826" selection-start-line="826" selection-end-line="826" />
         </state>
       </provider>
     </entry>
     <entry file="file://D:/Go/src/runtime/panic.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
+        <state relative-caret-position="13520">
           <caret line="680" selection-start-line="680" selection-end-line="680" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bytes-buffer/buffer.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3400">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bytes-buffer/buffer_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        <state relative-caret-position="200">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
           <folding>
             <element signature="e#22#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bytes-buffer/buffer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="185" column="5" lean-forward="true" selection-start-line="185" selection-start-column="5" selection-end-line="185" selection-end-column="5" />
+          <folding>
+            <element signature="e#22#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bytes-buffer-pool/pool.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#27#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
