@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcf62790-3ee0-4a3e-8acd-0098c795c6bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bytes-buffer-pool/pool.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytes-buffer-pool/pool_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,13 +16,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/buffer$Test_Contrast_Memory_in_github_com_service_kit_buffer_bytes_buffer_pool.out" NAME="Test_Contrast_Memory in github.com/service-kit/buffer/bytes-buffer-pool Coverage Results" MODIFIED="1545727996136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/buffer$Test_Contrast_Time_in_github_com_service_kit_buffer_bytes_buffer_pool.out" NAME="Test_Contrast_Time in github.com/service-kit/buffer/bytes-buffer-pool Coverage Results" MODIFIED="1545726869009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="434" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bytes-buffer/buffer.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="372">
-              <caret line="185" column="5" lean-forward="true" selection-start-line="185" selection-start-column="5" selection-end-line="185" selection-end-column="5" />
+              <caret line="185" column="5" selection-start-line="185" selection-start-column="5" selection-end-line="185" selection-end-column="5" />
               <folding>
                 <element signature="e#22#50#0" expanded="true" />
               </folding>
@@ -30,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bytes-buffer-pool/pool.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
@@ -38,6 +45,45 @@
               <folding>
                 <element signature="e#27#54#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bytes-buffer-pool/pool_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="752">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="e#27#111#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Go/src/sync/pool.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2488">
+              <caret line="96" column="17" lean-forward="true" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Go/src/internal/race/norace.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Go/src/sync/cond.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="972">
+              <caret line="91" column="60" lean-forward="true" selection-start-line="91" selection-start-column="7" selection-end-line="91" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -100,6 +146,7 @@
         <option value="$PROJECT_DIR$/bytes-buffer/buffer.go" />
         <option value="$PROJECT_DIR$/bytes-buffer/buffer_test.go" />
         <option value="$PROJECT_DIR$/bytes-buffer-pool/pool.go" />
+        <option value="$PROJECT_DIR$/bytes-buffer-pool/pool_test.go" />
       </list>
     </option>
   </component>
@@ -121,6 +168,41 @@
             <path>
               <item name="buffer" type="b2602c69:ProjectViewProjectNode" />
               <item name="buffer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="buffer" type="462c0819:PsiDirectoryNode" />
+              <item name="bytes-buffer-pool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="buffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.11.2" type="20ee2d1f:SyntheticLibraryElementNode" />
+            </path>
+            <path>
+              <item name="buffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.11.2" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.11.2" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.11.2" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="race" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -150,66 +232,114 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.Test_Contrast_Memory in github.com/service-kit/buffer/bytes-buffer-pool">
+    <configuration name="Test_Contrast_Memory in github.com/service-kit/buffer/bytes-buffer-pool" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="buffer" />
-      <working_directory value="$PROJECT_DIR$/bytes-buffer" />
+      <working_directory value="$PROJECT_DIR$/bytes-buffer-pool" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/service-kit/buffer/bytes-buffer" />
+      <package value="github.com/service-kit/buffer/bytes-buffer-pool" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_BytesBuffer$" />
+      <pattern value="^Test_Contrast_Memory$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_Contrast_Space in github.com/service-kit/buffer/bytes-buffer-pool" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="buffer" />
+      <working_directory value="$PROJECT_DIR$/bytes-buffer-pool" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/service-kit/buffer/bytes-buffer-pool" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_Contrast_Space$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_Contrast_Time in github.com/service-kit/buffer/bytes-buffer-pool" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="buffer" />
+      <working_directory value="$PROJECT_DIR$/bytes-buffer-pool" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/service-kit/buffer/bytes-buffer-pool" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_Contrast_Time$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_Contrast_Time_1 in github.com/service-kit/buffer/bytes-buffer-pool" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="buffer" />
+      <working_directory value="$PROJECT_DIR$/bytes-buffer-pool" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/service-kit/buffer/bytes-buffer-pool" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_Contrast_Time_1$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_Contrast_Time_2 in github.com/service-kit/buffer/bytes-buffer-pool" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="buffer" />
+      <working_directory value="$PROJECT_DIR$/bytes-buffer-pool" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/service-kit/buffer/bytes-buffer-pool" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_Contrast_Time_2$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" />
+        <item itemvalue="Go Test.Test_Contrast_Memory in github.com/service-kit/buffer/bytes-buffer-pool" />
+        <item itemvalue="Go Test.Test_Contrast_Space in github.com/service-kit/buffer/bytes-buffer-pool" />
+        <item itemvalue="Go Test.Test_Contrast_Time in github.com/service-kit/buffer/bytes-buffer-pool" />
+        <item itemvalue="Go Test.Test_Contrast_Time_1 in github.com/service-kit/buffer/bytes-buffer-pool" />
+        <item itemvalue="Go Test.Test_Contrast_Time_2 in github.com/service-kit/buffer/bytes-buffer-pool" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_BytesBuffer_in_github_com_service-kit_buffer_bytes-buffer - 2018.12.22 at 19h 26m 17s.xml">
-      <configuration name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_Contrast_Time_in_github_com_service-kit_buffer_bytes-buffer-pool - 2018.12.25 at 16h 34m 24s.xml">
+      <configuration name="Test_Contrast_Time in github.com/service-kit/buffer/bytes-buffer-pool" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_BytesBuffer_in_github_com_service-kit_buffer_bytes-buffer - 2018.12.22 at 19h 26m 20s.xml">
-      <configuration name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_Contrast_Time_in_github_com_service-kit_buffer_bytes-buffer-pool - 2018.12.25 at 16h 34m 29s.xml">
+      <configuration name="Test_Contrast_Time in github.com/service-kit/buffer/bytes-buffer-pool" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_BytesBuffer_in_github_com_service-kit_buffer_bytes-buffer - 2018.12.22 at 19h 31m 06s.xml">
-      <configuration name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_Contrast_Space_in_github_com_service-kit_buffer_bytes-buffer-pool - 2018.12.25 at 16h 39m 54s.xml">
+      <configuration name="Test_Contrast_Space in github.com/service-kit/buffer/bytes-buffer-pool" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_BytesBuffer_in_github_com_service-kit_buffer_bytes-buffer - 2018.12.22 at 19h 31m 13s.xml">
-      <configuration name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_Contrast_Memory_in_github_com_service-kit_buffer_bytes-buffer-pool - 2018.12.25 at 16h 53m 24s.xml">
+      <configuration name="Test_Contrast_Memory in github.com/service-kit/buffer/bytes-buffer-pool" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_BytesBuffer_in_github_com_service-kit_buffer_bytes-buffer - 2018.12.22 at 19h 31m 30s.xml">
-      <configuration name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_Contrast_Memory_in_github_com_service-kit_buffer_bytes-buffer-pool - 2018.12.25 at 16h 54m 32s.xml">
+      <configuration name="Test_Contrast_Memory in github.com/service-kit/buffer/bytes-buffer-pool" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_BytesBuffer_in_github_com_service-kit_buffer_bytes-buffer - 2018.12.22 at 19h 31m 44s.xml">
-      <configuration name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_Contrast_Memory_in_github_com_service-kit_buffer_bytes-buffer-pool - 2018.12.25 at 16h 56m 09s.xml">
+      <configuration name="Test_Contrast_Memory in github.com/service-kit/buffer/bytes-buffer-pool" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_BytesBuffer_in_github_com_service-kit_buffer_bytes-buffer - 2018.12.22 at 19h 31m 51s.xml">
-      <configuration name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_Contrast_Memory_in_github_com_service-kit_buffer_bytes-buffer-pool - 2018.12.25 at 16h 57m 02s.xml">
+      <configuration name="Test_Contrast_Memory in github.com/service-kit/buffer/bytes-buffer-pool" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_BytesBuffer_in_github_com_service-kit_buffer_bytes-buffer - 2018.12.24 at 11h 13m 44s.xml">
-      <configuration name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_Contrast_Memory_in_github_com_service-kit_buffer_bytes-buffer-pool - 2018.12.25 at 16h 57m 49s.xml">
+      <configuration name="Test_Contrast_Memory in github.com/service-kit/buffer/bytes-buffer-pool" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_BytesBuffer_in_github_com_service-kit_buffer_bytes-buffer - 2018.12.24 at 11h 19m 43s.xml">
-      <configuration name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_Contrast_Memory_in_github_com_service-kit_buffer_bytes-buffer-pool - 2018.12.25 at 16h 58m 23s.xml">
+      <configuration name="Test_Contrast_Memory in github.com/service-kit/buffer/bytes-buffer-pool" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Test_BytesBuffer_in_github_com_service-kit_buffer_bytes-buffer - 2018.12.24 at 11h 19m 58s.xml">
-      <configuration name="Test_BytesBuffer in github.com/service-kit/buffer/bytes-buffer" configurationId="GoTestRunConfiguration" />
+    <history-entry file="Test_Contrast_Memory_in_github_com_service-kit_buffer_bytes-buffer-pool - 2018.12.25 at 17h 00m 33s.xml">
+      <configuration name="Test_Contrast_Memory in github.com/service-kit/buffer/bytes-buffer-pool" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49457702" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49457702" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" sideWeight="0.505423" side_tool="true" visible="true" weight="0.2553305" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46637744" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -219,6 +349,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.14179105" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -263,10 +394,31 @@
     <entry file="file://$PROJECT_DIR$/bytes-buffer/buffer.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
-          <caret line="185" column="5" lean-forward="true" selection-start-line="185" selection-start-column="5" selection-end-line="185" selection-end-column="5" />
+          <caret line="185" column="5" selection-start-line="185" selection-start-column="5" selection-end-line="185" selection-end-column="5" />
           <folding>
             <element signature="e#22#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Go/src/sync/cond.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="91" column="60" lean-forward="true" selection-start-line="91" selection-start-column="7" selection-end-line="91" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Go/src/internal/race/norace.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Go/src/sync/pool.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2488">
+          <caret line="96" column="17" lean-forward="true" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -276,6 +428,16 @@
           <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="e#27#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bytes-buffer-pool/pool_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#27#111#0" expanded="true" />
           </folding>
         </state>
       </provider>
